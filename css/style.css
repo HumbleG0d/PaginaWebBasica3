@@ -31,6 +31,10 @@ body {
   top: 15px;
 }
 
+.main {
+  position: relative;
+}
+
 .book {
   width: 550px;
   height: 700px;
@@ -67,13 +71,74 @@ body {
   position: absolute;
   top: 50px;
   left: 30px;
+  z-index: 10;
 }
 
 .p1 {
   font-family: "DM Serif Display", serif;
   font-size: 5em;
   color: #fff;
+}
+
+.good,
+.desing,
+.areh,
+.prag,
+.andh,
+.idea,
+.footer {
   position: absolute;
-  top: 8px;
-  right: 60px;
+}
+
+.good {
+  top: 85px;
+  left: 180px;
+}
+
+.desing {
+  top: 150px;
+  left: 110px;
+}
+
+.areh {
+  top: 230px;
+  left: 140px;
+}
+
+.prag {
+  top: 300px;
+  left: 110px;
+}
+
+.andh {
+  bottom: 220px;
+  left: 135px;
+}
+
+.idea {
+  bottom: 140px;
+  left: 110px;
+}
+
+.footer {
+  color: #fff;
+  bottom: 120px;
+  left: 130px;
+}
+
+.circle {
+  background-color: #000;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  position: absolute;
+  top: 90px;
+  right: -60px;
+}
+
+.s-div {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
 }
